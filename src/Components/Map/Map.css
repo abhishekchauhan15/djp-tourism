@@ -2,10 +2,28 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100vw;
   height: 100vh;
+  display: flex;
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.map__img {
+  position: absolute;
+  width: 100vw !important;
+  z-index: -100;
+  filter: blur(10px);
+}
+
+.map__left {
+  flex-grow: 1;
+  margin: 0 40px;
 }
 
 path {
+  transition: all 200ms ease-in;
   fill: #ecefa4;
   stroke: white;
   stroke-width: 1px;
@@ -13,4 +31,46 @@ path {
 
 path:hover {
   fill: #d9dd6b;
+}
+
+.infoCard {
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+  transition: all 500ms ease-in;
+}
+
+.infoCard > hr {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  border-top: 1px solid white !important;
+}
+
+.InfoCard__place > hr {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  border-top: 1px solid white !important;
+}
+
+.infoCard > h1 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .map {
+    flex-direction: column;
+    margin: 50px 0px;
+    width: 100vw;
+    color: black;
+  }
+
+  svg {
+    width: 100%;
+  }
+
+  .map__img {
+    left: 1000px;
+  }
 }

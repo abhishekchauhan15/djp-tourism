@@ -3,6 +3,7 @@
   padding: 0;
   outline: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 /* body {
@@ -10,7 +11,7 @@
 } */
 
 body {
-  text-align: center;
+  overflow: hidden;
 }
 svg {
   outline: 1px solid black;
