@@ -1,0 +1,16 @@
+.map {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+path {
+  fill: #ecefa4;
+  stroke: white;
+  stroke-width: 1px;
+}
+
+path:hover {
+  fill: #d9dd6b;
+}
