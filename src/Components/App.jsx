@@ -1,10 +1,13 @@
 import "./App.css";
-import ExploreSection from "./ExploreSection/ExploreSection";
+import Discovercont from "./Discover/Discovercont.jsx"
+// import ExploreSection from "./ExploreSection/ExploreSection";
 
 function App() {
   return (
     <div className="app">
-      <ExploreSection />
+      {/* <ExploreSection /> */}
+      {/* code for flip card */}
+      <Discovercont />
     </div>
   );
 }
