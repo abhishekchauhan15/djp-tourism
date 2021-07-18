@@ -1,0 +1,13 @@
+.card-container-1 {
+  display: flex;
+  direction: row;
+}
+
+.card-container-2 {
+  display: flex;
+  direction: row;
+}
+.modal-body {
+  height: 80%;
+  width: 90%;
+}
