@@ -60,10 +60,12 @@ path:hover {
 
 @media only screen and (max-width: 1000px) {
   .map {
-    flex-direction: column;
-    margin: 50px 0px;
+    flex-direction: column-reverse;
+    margin: 100px 0px;
     width: 100vw;
     color: black;
+    position: relative;
+    margin: 200px 0;
   }
 
   svg {
@@ -71,6 +73,8 @@ path:hover {
   }
 
   .map__img {
-    left: 1000px;
+    position: absolute;
+    visibility: hidden;
+    z-index: -10000;
   }
 }
