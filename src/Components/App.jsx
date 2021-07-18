@@ -7,10 +7,10 @@ import Form from "./Form/Form";
 function App() {
   return (
     <div className="app">
+      <Form />
       <Discovercont />
       <Map />
       <Explore />
-      <Form />
     </div>
   );
 }

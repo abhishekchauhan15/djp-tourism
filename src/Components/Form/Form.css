@@ -20,10 +20,10 @@ html,
   width: 100%;
   height: 100%;
 }
-form {
+/* form {
   width: 40%;
   margin: auto;
-}
+} */
 .navbar-light {
   background-color: #ffffff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
@@ -77,4 +77,38 @@ form {
 
 textarea {
   resize: none;
+}
+/* form {
+  display: none;
+} */
+
+.md-ft {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.reg {
+  width: 80%;
+  background-color: #7f7d7d;
+  border: 0;
+}
+.reg:hover {
+  background-color: #000;
+}
+
+.mar {
+  /* position: absolute; */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10000000;
+}
+.icon-i {
+  width: 50px;
+  height: 50px;
+  background-color: #3a8ced; /*https://previews.123rf.com/images/arcady31/arcady311812/arcady31181200080/114185785-namaste-hands-greeting-symbol.jpg*/
+  border-radius: 50%;
+  font-size: 20px;
+  background-image: url(./namaste.png);
+  background-size: cover;
 }
