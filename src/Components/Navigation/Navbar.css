@@ -6,8 +6,17 @@ Nav {
   z-index: 10000;
   width: 100%;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1%;
   text-shadow: 0 0 3px #0c0a0a;
+  box-sizing: border-box;
+}
+/* ul {
+  position: relative;
+  left: 5%;
+  margin-top: 1%;
+} */
+.djp {
+  margin-top: 2.5%;
 }
 a {
   text-decoration: none;
@@ -44,6 +53,19 @@ a:hover {
   @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap");
   .hamburger-toggle {
     display: block;
+    position: absolute;
+    right: 2%;
+  }
+  nav {
+    margin: 0;
+  }
+
+  li {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .navlinks {
     position: absolute;
@@ -54,7 +76,7 @@ a:hover {
     align-items: center;
     width: 30%;
     top: 8vh;
-    font-size: 32px;
+    font-size: 150%;
     z-index: 99;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;

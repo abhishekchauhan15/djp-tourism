@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <i className="fas fa-plane fa-spin"></i>
-        <h4>DJP TOURISM</h4>
+        <h4 className="djp">DJP TOURISM</h4>
       </div>
       <ul className={renderClasses()}>
         <li>

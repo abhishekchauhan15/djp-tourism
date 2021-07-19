@@ -12,7 +12,7 @@ export default function Explore() {
         <div>
           <div className="row minus-margin justify-content-center js-view-dom-id-38d0eab79a1e434574dd7168113b4a2bff44584c6b3225cb201a5c8ae82c999d">
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -51,7 +51,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -87,7 +87,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -127,7 +127,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -164,7 +164,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -202,7 +202,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -242,7 +242,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img
@@ -278,7 +278,7 @@ export default function Explore() {
               </a>
             </div>
             <div className="col-lg-3 col-sm-6 flip-card">
-              <a href="#">
+              <a href="#visitIndia">
                 <div className="flip-card-inner">
                   <div className="flip-card-front figure">
                     <img

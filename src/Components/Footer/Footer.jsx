@@ -18,15 +18,6 @@ export default function Footer() {
                 <li>
                   <a href="#nothing">Festivals &amp; Fairs</a>
                 </li>
-                <li>
-                  <a href="#nothing">Destinations</a>
-                </li>
-                <li>
-                  <a href="#nothing">Film Tourism</a>
-                </li>
-                <li>
-                  <a href="#nothing">Yoga &amp; Wellness</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -35,12 +26,6 @@ export default function Footer() {
             <div className="card-body">
               <h5 className="card-title text-white">Plan Your Trip</h5>
               <ul className="list-unstyled">
-                <li>
-                  <a href="#nothing">Accommodations</a>
-                </li>
-                <li>
-                  <a href="#nothing">Itineraries</a>
-                </li>
                 <li>
                   <a href="#nothing">Tourism Circuits</a>
                 </li>
@@ -63,12 +48,7 @@ export default function Footer() {
                 <li>
                   <a href="#nothing">About Us</a>
                 </li>
-                <li>
-                  <a href="#nothing">Awards &amp; Honours</a>
-                </li>
-                <li>
-                  <a href="#nothing">CEO’s Message</a>
-                </li>
+
                 <li>
                   <a href="#nothing">Contact Us</a>
                 </li>
@@ -92,7 +72,7 @@ export default function Footer() {
                 <li>
                   <a href="#nothing">Homestay Faq</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#nothing">Travel Trade Faq</a>
                 </li>
                 <li>
@@ -103,7 +83,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#nothing">Trekking Faq</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -122,24 +102,6 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#nothing">Facilities</a>
-                </li>
-                <li>
-                  <a href="#nothing">Market Research and Statistics</a>
-                </li>
-                <li>
-                  <a href="#nothing">News</a>
-                </li>
-                <li>
-                  <a href="#">Press Release</a>
-                </li>
-                <li>
-                  <a href="#nothing">UTDB Logo-English</a>
-                </li>
-                <li>
-                  <a href="#nothing">UTDB Logo-Hindi</a>
-                </li>
-                <li>
-                  <a href="#nothing">Tentative Event Calendar 2020-21</a>
                 </li>
               </ul>
             </div>
@@ -173,45 +135,6 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#nothing">Citizen Charter</a>
-                </li>
-                <li>
-                  <a href="#nothing">India Right to Service Act</a>
-                </li>
-                <li>
-                  <a href="#nothing">HSRT</a>
-                </li>
-                <li>
-                  <a href="#nothing">IDIPT</a>
-                </li>
-                <li>
-                  <a href="#nothing">Important Links</a>
-                </li>
-                <li>
-                  <a href="#nothing">Inside Government</a>
-                </li>
-                <li>
-                  <a href="#nothing">Policy and Guidelines</a>
-                </li>
-                <li>
-                  <a href="#nothing">RTI</a>
-                </li>
-                <li>
-                  <a href="#nothing">Right to Service</a>
-                </li>
-                <li>
-                  <a href="#nothing">Tenders/EOI</a>
-                </li>
-                <li>
-                  <a href="#nothing">Vacancies</a>
-                </li>
-                <li>
-                  <a href="#nothing">CM Helpline</a>
-                </li>
-                <li>
-                  <a href="#nothing">Sahyog</a>
-                </li>
-                <li>
-                  <a href="#nothing">Project Performance Management System</a>
                 </li>
               </ul>
             </div>
