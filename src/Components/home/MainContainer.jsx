@@ -6,7 +6,7 @@ const MainContainer = (props) => {
   const items = props.items;
   return (
     <div className="MainContainer">
-      <InfoList items={items}/>
+      <InfoList />
       <Container items={items} changeBackground={props.changeBackground} />
     </div>
   );
