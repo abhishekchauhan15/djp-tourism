@@ -9,3 +9,7 @@ h1 {
 /* #colwhite {
   color: white;
 } */
+.infocard {
+  background-image: url("./img1.jpg");
+  background-size: cover;
+}
