@@ -1,0 +1,74 @@
+
+Nav{
+    display:flex;
+    justify-content:space-around;
+    min-height:8vh;
+    position:absolute;
+    width:100%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.navlinks{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    width:50%;
+    font-size: 24px;
+    
+}
+.link {
+    letter-spacing: 3px;
+    color:rgba(255,255,255,0.8);
+   
+}
+a:hover{
+    color:rgba(255,255,255,1);
+
+}
+.logo{
+    display:flex;
+    color:rgba(255,255,255,0.8);
+    font-weight:1000;
+}
+.logo h4{
+    margin-left: 7px;
+    letter-spacing: 1px;
+}
+.hamburger-toggle{
+    cursor:pointer;
+    color:white;
+    display:none;
+}
+@media screen and (max-width: 950px) {
+    
+    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+    .hamburger-toggle{
+        
+        display:block;
+    }
+    .navlinks{
+        position:absolute;
+        right:0px;
+        display:flex;
+        flex-direction: column;
+        height:92vh;
+        align-items: center;
+        width:100%;
+        top:8vh;
+        background-image: linear-gradient(teal, rgb(86, 86, 202));
+        font-size: 32px;
+        z-index: 99;
+        transform:translateX(100%);
+        transition: transform 0.5s ease-in;
+        font-family: 'Encode Sans SC', sans-serif;
+       
+       
+        
+    }
+   .active{
+       transform: translate(0%);
+    }
+}
+    
