@@ -1,5 +1,6 @@
 import "./App.css";
-// import Home from "./home/Home";
+import Navbar from "./Navigation/Navbar.jsx";
+import Home from "./home/Home";
 import Discovercont from "./Discover/Discovercont.jsx";
 import Map from "./Map/Map";
 import Explore from "./Discover/Explore";
@@ -9,7 +10,8 @@ import Footer from "./Footer/Footer";
 function App() {
   return (
     <div className="app">
-      {/* <Home /> */}
+      <Navbar />
+      <Home />
       <Form />
       <Discovercont />
       <Map />

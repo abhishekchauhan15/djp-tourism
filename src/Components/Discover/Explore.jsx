@@ -38,15 +38,12 @@ export default function Explore() {
                     />
 
                     <figcaption className="fig-caption h-100 no-bg text-white text-shadow-on-blur">
-                      <p>
+                      <p style={{ marginLeft: 10 }}>
                         India has always been considered a spiritual country
                         where yoga and meditation form the core of life. Due to
                         its richness of traditions and cultures, many consider
                         it a perfect destination to achieve spirituality by
                         bringing the soul and mind to a desirable stable level.
-                        A blissful and spiritual experience is possible here
-                        only when the ancient practices of yoga and meditation
-                        are followed.
                       </p>
                     </figcaption>
                   </div>
@@ -192,7 +189,7 @@ export default function Explore() {
                     />
 
                     <figcaption className="fig-caption h-100 no-bg text-white text-shadow-on-blur">
-                      <p>
+                      <p style={{ marginLeft: 10 }}>
                         There are a lot of adventure destinations in India, and
                         they have been waiting for you, calling out to you all
                         this time. Uttarakhand, Goa, Andaman, Rishikesh are some

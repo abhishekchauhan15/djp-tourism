@@ -156,8 +156,8 @@ textarea {
   color: white;
 }
 .Thanks {
-  margin: 0;
-  /* justify-self: center; */
+  margin: 0 auto;
+  justify-self: flex-;
 }
 .modal-header {
   border: none;
@@ -168,4 +168,11 @@ textarea {
 .custom-input::placeholder {
   color: white;
   opacity: 1;
+}
+.namasteimg {
+  width: 90%;
+  object-fit: cover;
+}
+.close {
+  margin: 0px;
 }

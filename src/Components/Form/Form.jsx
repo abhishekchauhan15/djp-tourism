@@ -1,5 +1,6 @@
 import React from "react";
 import "./Form.css";
+import Namaste from "../Form/Namaste2.png";
 export default function Form() {
   return (
     <div className="mar">
@@ -84,6 +85,7 @@ export default function Form() {
                 className="close"
                 data-dismiss="modal"
                 aria-label="Close"
+                style={{ marginLeft: 0 }}
               >
                 <i className="fa fa-times cross" aria-hidden="true"></i>
               </button>
@@ -91,7 +93,8 @@ export default function Form() {
 
             <div className="modal-body flexingmodal">
               <img
-                src="https://downloadhdwallpapers.in/wp-content/uploads/2018/06/Indian-Flag-Waving-Gif-Animation-Cute-.gif"
+                className="namasteimg"
+                src="https://cdn.discordapp.com/attachments/866039655924891681/866561304801837066/Copy_of_Untitled_2.png"
                 alt=""
               />
             </div>
