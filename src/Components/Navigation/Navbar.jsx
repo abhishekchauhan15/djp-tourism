@@ -30,13 +30,13 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="link" href="/explore#discover">
-            Discover
+          <a className="link" href="/explore#map">
+            Map
           </a>
         </li>
         <li>
-          <a className="link" href="/explore#map">
-            Map
+          <a className="link" href="/explore#discover">
+            Discover
           </a>
         </li>
       </ul>
