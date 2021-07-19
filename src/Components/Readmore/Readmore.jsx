@@ -71,7 +71,7 @@ The Golden Temple is the main attraction in the city, and the most important rel
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/9zwUZTv95cw?autoplay=1&mute=1"
         ></iframe>
       ),
 
@@ -101,7 +101,7 @@ The Golden Temple is the main attraction in the city, and the most important rel
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/t3YWyzcq4Mo?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -129,7 +129,7 @@ The Golden Temple is the main attraction in the city, and the most important rel
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/o9GqYS6uvsE?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -167,7 +167,7 @@ When these monuments were built, the boys in the place lived in hermitages, by b
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/jhIK24fVT0o?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -203,7 +203,7 @@ After its construction the gateway was used as a symbolic ceremonial entrance to
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/ztDPKqNJCKI?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -235,7 +235,7 @@ Mysore Palace is now one of the most famous tourist attractions in India, after 
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/84dD6-GPuqs?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -267,7 +267,7 @@ Many of the oldest sculptural elements have been moved to the museum beside the 
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/YAuMCIdWjHE?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -292,7 +292,7 @@ Many of the oldest sculptural elements have been moved to the museum beside the 
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/poKbFeYU464?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -326,7 +326,7 @@ The Ministry of Tourism, Government of India has identified Jagdalpur-Teerathgar
         <iframe
           width="900"
           height="600"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/8FwklDzRs7A?autoplay=1&mute=1"
         ></iframe>
       ),
       description: `
@@ -358,6 +358,13 @@ The Shankaracharya Temple which lies on a hill top in the middle of the city, be
     {
       id: 12,
       name: "Assam",
+      video: (
+        <iframe
+          width="900"
+          height="600"
+          src="https://www.youtube.com/embed/y47G4-XyW14?autoplay=1&mute=1"
+        ></iframe>
+      ),
       description: `
       Assam is a state in northeastern India, south of the eastern Himalayas along the Brahmaputra and Barak River valleys. Assam covers an area of 78,438 km2 (30,285 sq mi). The state is bordered by Bhutan and Arunachal Pradesh to the north; Nagaland and Manipur to the east; Meghalaya, Tripura, Mizoram and Bangladesh to the south; and West Bengal to the west via the Siliguri Corridor, a 22 kilometres (14 mi) wide strip of land that connects the state to the rest of India. It is also one of the world's most populous subdivisions. Assamese is the official and most commonly spoken language of the state, followed by Bengali, which is official in the Barak Valley and Bodo which is official in Bodoland Territorial Region.
       Climate:
@@ -379,6 +386,13 @@ In 2015, the rhino population stood at 2401. Kaziranga is home to the highest de
     {
       id: 13,
       name: "Arunachal Pradesh",
+      video: (
+        <iframe
+          width="900"
+          height="600"
+          src="https://www.youtube.com/embed/VZQw9XJQHxE?autoplay=1&mute=1"
+        ></iframe>
+      ),
       description: `
       Arunachal Pradesh is an Indian state in Northeast India. It was formed from the erstwhile North-East Frontier Agency (NEFA) region, and became a state on 20 February 1987. It borders the states of Assam and Nagaland to the south. It shares international borders with Bhutan in the west, Myanmar in the east, and a disputed border with China in the north at the McMahon Line. Itanagar is the state capital of Arunachal Pradesh. Arunachal Pradesh is the largest of the Seven Sister States of Northeast India by area. Arunachal Pradesh shares 1,129 km border with China's Tibet Autonomous Region.[15][16]
 
@@ -401,6 +415,13 @@ It is the fourth largest national park in India.[4]The national park is located 
     {
       id: 14,
       name: "Jharkhand",
+      video: (
+        <iframe
+          width="900"
+          height="600"
+          src="https://www.youtube.com/embed/_a9JFQfF5_0?autoplay=1&mute=1"
+        ></iframe>
+      ),
       description: `
        Jharkhand is a state in eastern India.[7] The state shares its border with the states of Bihar to the north, Uttar Pradesh to the northwest, Chhattisgarh to the west, Odisha to the south and West Bengal to the east. It has an area of 79,710 km2 (30,778 sq mi). It is the 15th largest state by area, and the 14th largest by population. Hindi is the official language of the state.[3] The city of Ranchi is its capital and Dumka its sub-capital. The state is known for its waterfalls, hills and holy places;[8] Baidyanath Dham, Parasnath and Rajrappa are major religious sites.[9] The state was formed in 2000, from the territory that had previously been part of Bihar.
 
@@ -423,7 +444,13 @@ The temple of Baidyanath or Lord Shiva is the most important of all the temples 
     {
       id: 15,
       name: "Telangana",
-
+      video: (
+        <iframe
+          width="900"
+          height="600"
+          src="https://www.youtube.com/embed/WndTY8D8HJw?autoplay=1&mute=1"
+        ></iframe>
+      ),
       description: `
        Telangana is a state in Southern India situated on the south-central stretch of the Indian peninsula on the high Deccan Plateau.[10] It is the eleventh-largest state and the twelfth-most populated state in India with a geographical area of 112,077 km2 (43,273 sq mi) and 35,193,978 residents as per 2011 census.[11] On 2 June 2014, the area was separated from the northwestern part of Andhra Pradesh as the newly formed state with Hyderabad as its capital. Its other major cities include Warangal, Nizamabad, Khammam, Karimnagar and Ramagundam. Telangana is bordered by the states of Maharashtra to the north, Chhattisgarh to the east, Karnataka to the west, and Andhra Pradesh to the east and south.[12] The terrain of Telangana region consists mostly of hills, mountain ranges, and thick dense forests covering an area of 27,292 km2 (10,538 sq mi). As of 2019, the state of Telangana is divided into 33 districts.
        Climate:
@@ -444,7 +471,6 @@ The temple of Baidyanath or Lord Shiva is the most important of all the temples 
       ),
     },
   ];
-  console.log(index);
   return (
     <div className="fam container">
       <div>
