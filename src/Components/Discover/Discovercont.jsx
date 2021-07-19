@@ -7,6 +7,7 @@ export default function Discovercont() {
     color: "white",
     border: "1px solid white",
     padding: "2px",
+    boxShadow: "1px 1px",
   };
   return (
     <div>
@@ -326,7 +327,6 @@ export default function Discovercont() {
                     tranquil spot to recharge yourself, Meghalaya has plenty to
                     offer.
                   </p>
-                  <br />
                   <div style={threesixty}>360° view</div>
                 </figcaption>
               </div>
