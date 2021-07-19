@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./InfoCard.css";
 function InfoCard({ index, placesData }) {
   return (
     <div className="infoCard">
@@ -23,6 +23,15 @@ function InfoCard({ index, placesData }) {
           <h1>{placesData[index].name}</h1>
           <hr />
           <p>{placesData[index].description}</p>
+          <button
+            className="btn i-btn"
+            id="colwhite"
+            onClick={() => {
+              window.open(`/city/${index}`, "_blank");
+            }}
+          >
+            Read More
+          </button>
         </div>
       )}
     </div>
