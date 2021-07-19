@@ -4,24 +4,24 @@ export default function Form() {
   return (
     <div className="mar">
       <div
-        class="modal fade formodal modal-btn"
+        className="modal fade formodal modal-btn"
         id="exampleModalToggle"
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel"
         tabindex="-1"
       >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content custom-dialog">
+            <div className="modal-body">
               {/* form */}
               <form>
                 <h3>Sign Up</h3>
 
-                <div className="form-group">
+                <div className="form-group ">
                   <label>Name</label>
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control custom-input"
                     placeholder="First name"
                   />
                 </div>
@@ -30,7 +30,7 @@ export default function Form() {
                   <label>Mobile No.</label>
                   <input
                     type="tel"
-                    className="form-control"
+                    className="form-control custom-input"
                     placeholder="Mobile No."
                     pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                   />
@@ -40,7 +40,7 @@ export default function Form() {
                   <label>Email</label>
                   <input
                     type="email"
-                    className="form-control"
+                    className="form-control custom-input"
                     placeholder="Enter email"
                   />
                 </div>
@@ -48,7 +48,7 @@ export default function Form() {
                 <div className="form-group">
                   <label>Suggestions</label>
                   <textarea
-                    className="form-control"
+                    className="form-control custom-input"
                     placeholder="Suggestions"
                   />
                 </div>
@@ -57,7 +57,7 @@ export default function Form() {
             </div>
             <div className="md-ft">
               <button
-                class="btn btn-primary reg"
+                className="btn reg"
                 data-toggle="modal"
                 data-target=".jaihind"
                 data-dismiss="modal"
@@ -69,38 +69,37 @@ export default function Form() {
         </div>
       </div>
       <div
-        class="modal fade jaihind"
+        className="modal fade jaihind"
         id="exampleModalToggle2"
         aria-hidden="true"
         aria-labelledby="exampleModalToggleLabel2"
         tabindex="-1"
       >
-        <div class="modal-dialog modal-dialog-centered ">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalToggleLabel2">
-                Modal 2
-              </h5>
+        <div className="modal-dialog modal-dialog-centered ">
+          <div className="modal-content custom-dialog">
+            <div className="modal-header">
+              <h3 className="Thanks">Thanks For Visiting Us!</h3>
               <button
                 type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
+                className="close"
+                data-dismiss="modal"
                 aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Hide this modal and show the first with the button below.
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-primary" data-dismiss="modal">
-                Back to first
+              >
+                <i className="fa fa-times cross" aria-hidden="true"></i>
               </button>
+            </div>
+
+            <div className="modal-body flexingmodal">
+              <img
+                src="https://downloadhdwallpapers.in/wp-content/uploads/2018/06/Indian-Flag-Waving-Gif-Animation-Cute-.gif"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
       <a
-        class="btn icon-i"
+        className="btn icon-i"
         href="https"
         data-toggle="modal"
         data-target=".formodal"
