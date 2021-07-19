@@ -1,7 +1,13 @@
 import React from "react";
 import Slider from "./../Slider/Slider";
-
+// import "./Discovercont.css";
+// import FontAwesomeIcon from "react-icons/fa";
 export default function Discovercont() {
+  const threesixty = {
+    color: "white",
+    border: "1px solid white",
+    padding: "2px",
+  };
   return (
     <div>
       <Slider />
@@ -168,6 +174,8 @@ export default function Discovercont() {
                     Itimad-ud-Daulah, and Fatehpur Sikri are other places of
                     attraction in the city
                   </p>
+                  <br />
+                  <div style={threesixty}>360° view</div>
                 </figcaption>
               </div>
             </a>
@@ -195,6 +203,8 @@ export default function Discovercont() {
                     tag of India’s famous UNESCO World Heritage Site which is
                     surely an amazing crowd puller located in India.{" "}
                   </p>
+                  <br />
+                  <div style={threesixty}>360° view</div>
                 </figcaption>
               </div>
             </a>
@@ -223,6 +233,8 @@ export default function Discovercont() {
                     new union territory of India is a holiday destination to
                     instantly fall in love with.
                   </p>
+                  <br />
+                  <div style={threesixty}>360° view</div>
                 </figcaption>
               </div>
             </a>
@@ -251,6 +263,8 @@ export default function Discovercont() {
                     emerald blue Arabian Sea which promise an unforgettable
                     holidaying experience to travellers.
                   </p>
+                  <br />
+                  <div style={threesixty}>360° view</div>
                 </figcaption>
               </div>
             </a>
@@ -280,6 +294,8 @@ export default function Discovercont() {
                     residential clusters of the medieval period, which makes
                     Ahmedabad exceptional.
                   </p>
+                  <br />
+                  <div style={threesixty}>360° view</div>
                   {/* <button className="btn-2 icondown">360</button> */}
                 </figcaption>
               </div>
@@ -310,6 +326,8 @@ export default function Discovercont() {
                     tranquil spot to recharge yourself, Meghalaya has plenty to
                     offer.
                   </p>
+                  <br />
+                  <div style={threesixty}>360° view</div>
                 </figcaption>
               </div>
             </a>

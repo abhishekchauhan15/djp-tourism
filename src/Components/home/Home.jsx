@@ -37,7 +37,7 @@ const Home = () => {
         backgroundImage: `url(${imageSrc})`,
         backgroundPosition: `center`,
         backgroundSize: `cover`,
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: "no-repeat",
         transition: `background-image 0.5s ease-in-out`,
       }}
       className="Home"

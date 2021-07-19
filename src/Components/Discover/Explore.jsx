@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Explore() {
   return (
-    <div>
+    <div id="discover">
       <div
         className="views-element-container container-fluid discover-uttarakhand overflow-hidden mb-90 p-0 max-w-85"
         id="block-views-block-discover-uttrakhand-block-1"

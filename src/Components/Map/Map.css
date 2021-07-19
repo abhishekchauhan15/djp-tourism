@@ -24,12 +24,8 @@
 path {
   transition: all 200ms ease-in;
   fill: #ecefa4;
-  stroke: white;
+  stroke: #888;
   stroke-width: 1px;
-}
-
-path:hover {
-  fill: #d9dd6b;
 }
 
 .infoCard {
@@ -76,4 +72,24 @@ path:hover {
     visibility: hidden;
     z-index: -10000;
   }
+}
+
+#north:hover {
+  fill: #dddddd;
+}
+
+#west:hover {
+  fill: #f5a962;
+}
+
+#south:hover {
+  fill: #125d98;
+}
+
+#east:hover {
+  fill: #3c8dad;
+}
+
+#center:hover {
+  fill: #d7b19d;
 }
