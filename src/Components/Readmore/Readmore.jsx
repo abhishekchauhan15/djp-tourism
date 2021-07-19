@@ -472,7 +472,7 @@ The temple of Baidyanath or Lord Shiva is the most important of all the temples 
     },
   ];
   return (
-    <div className="fam">
+    <div className="fam container">
       <div>
         <h1 className="head">{newData[index].name}</h1>
       </div>
