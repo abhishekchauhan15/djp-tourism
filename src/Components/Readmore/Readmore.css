@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .page {
-  background-image: url("./img2.jpg");
+  background-image: url("./img3.jpg");
   background-size: stretch;
   color: white;
 }
@@ -25,4 +25,7 @@
 
 .vdo {
   width: 80%;
+}
+iframe {
+  border-radius: 10px;
 }
