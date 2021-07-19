@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=STIX+Two+Math&display=swap%27');
+
+
 .InfoList{
+    margin-top: 8em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,33 +11,39 @@
     height: 300px;
 }
 
-.Info h1{
-    font-size: 3rem;
-}
 
-.Info p{
-    font-size: 1.5rem;
-}
 
 .Info{
+    margin-top: 10em;
+    margin-bottom: 10em;
     width: 80%;
-    height: 20%;
+    height: 200px;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     border-radius: 0.5em;
-    transform: scale(0.8);
     transition: transform 500ms ease-in-out;
     /* opacity: 0.0; */
 }
+
+.Info h5{
+    font-size: 1.2rem;
+    font-family: 'STIX Two Math', serif;
+}
+
+.Info h6{
+    align-self: flex-end;
+    font-size: 1.2rem;
+    font-family: 'STIX Two Math', serif;
+}
+
 
 .active-info{
     width: 80%;
     height: 20%;
     flex: 1;
     border-radius: 0.5em;
-    transform: scale(1.2);
     opacity: 1;
 }
